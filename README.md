@@ -1,8 +1,18 @@
-# Voxel Survival — Universe 35
+# Voxel Survival Universe 40
 
-Redesigned voxel menu and in-game controls. Inspired by classic block-survival UI, using original CSS and the project assets.
+## Deployment
+Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js40/` only.
 
-- Main menu: cinematic voxel background, chunky pixel-style buttons, redesigned panels.
-- In-game: square voxel touch controls, redesigned hotbar/status.
-- Debug console preserved.
-- Version: 33.
+## Startup fix
+Three.js is loaded before `js40/main.js` using fixed CDN URLs with timeout and revision validation. Only `js40/` is used by the game.
+
+## Audit
+- JavaScript syntax checked with Node.js
+- relative imports checked
+- HTML duplicate IDs checked
+- DOM id references checked
+- stale namespaces removed
+- temporary source files removed
+- world generation fallback made Promise-safe
+
+Original Minecraft assets/audio are not included.

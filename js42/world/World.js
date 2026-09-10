@@ -4,7 +4,7 @@ import {Generator} from "./Generator.js";
 import {BLOCK,INFO} from "./Block.js";
 
 /*
- * Voxel Survival Universe 42
+ * Voxel Survival Universe 43
  * Performance pass:
  * - one draw group per block/material instead of one group per visible face;
  * - deterministic 64x64 nearest-neighbour textures generated once and cached;

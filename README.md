@@ -1,4 +1,4 @@
-# Voxel Survival Universe 42
+# Voxel Survival Universe 43
 
 ## Deployment
 Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js42/` only.

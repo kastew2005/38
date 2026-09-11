@@ -1,10 +1,10 @@
-# Voxel Survival Universe 47
+# Voxel Survival Universe 48
 
 ## Deployment
-Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js47/` only.
+Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js48/` only.
 
 ## Startup fix
-Three.js is loaded before `js47/main.js` using fixed CDN URLs with timeout and revision validation. Only `js47/` is used by the game.
+Three.js is loaded before `js48/main.js` using fixed CDN URLs with timeout and revision validation. Only `js48/` is used by the game.
 
 ## Audit
 - JavaScript syntax checked with Node.js
@@ -23,4 +23,4 @@ Original Minecraft assets/audio are not included.
 - Touch layout storage is isolated to `vs_touch_layout_v42`.
 
 
-Universe 47 fixes world selection/new-world launch: selected worlds set a one-shot session launch flag, reload, then automatically call Game.start(). This avoids returning to the main menu after creating or loading a world.
+Universe 48 fixes world selection/new-world launch: selected worlds set a one-shot session launch flag, reload, then automatically call Game.start(). This avoids returning to the main menu after creating or loading a world.

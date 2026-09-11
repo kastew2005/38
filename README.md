@@ -1,10 +1,10 @@
-# Voxel Survival Universe 44
+# Voxel Survival Universe 45
 
 ## Deployment
-Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js44/` only.
+Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js45/` only.
 
 ## Startup fix
-Three.js is loaded before `js44/main.js` using fixed CDN URLs with timeout and revision validation. Only `js44/` is used by the game.
+Three.js is loaded before `js45/main.js` using fixed CDN URLs with timeout and revision validation. Only `js45/` is used by the game.
 
 ## Audit
 - JavaScript syntax checked with Node.js

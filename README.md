@@ -1,10 +1,10 @@
-# Voxel Survival Universe 45
+# Voxel Survival Universe 47
 
 ## Deployment
-Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js45/` only.
+Upload the contents of this folder to the root of GitHub Pages. The runtime uses `js47/` only.
 
 ## Startup fix
-Three.js is loaded before `js45/main.js` using fixed CDN URLs with timeout and revision validation. Only `js45/` is used by the game.
+Three.js is loaded before `js47/main.js` using fixed CDN URLs with timeout and revision validation. Only `js47/` is used by the game.
 
 ## Audit
 - JavaScript syntax checked with Node.js
@@ -21,3 +21,6 @@ Original Minecraft assets/audio are not included.
 - Closed the `setupInput()` class method before `useSelected()`. This fixes Safari `Unexpected token "("` at `main.js` line 136.
 - Touch jump now releases on pointerup/pointercancel and has a short safety timeout.
 - Touch layout storage is isolated to `vs_touch_layout_v42`.
+
+
+Universe 47 fixes world selection/new-world launch: selected worlds set a one-shot session launch flag, reload, then automatically call Game.start(). This avoids returning to the main menu after creating or loading a world.
